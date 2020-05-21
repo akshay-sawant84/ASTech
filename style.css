@@ -35,7 +35,7 @@ font-family: 'Roboto', sans-serif; */
 }
 
 .carousel-inner{
-    height: 91vh;
+    height: 80vh;
 }
 
 .w-100{
@@ -48,7 +48,7 @@ font-family: 'Roboto', sans-serif; */
 }
 
 .carousel-caption{
-    top: 45%;
+    top: 40%;
 }
 
 .carousel-caption1{
@@ -70,3 +70,86 @@ font-family: 'Roboto', sans-serif; */
     font-family: 'Roboto', sans-serif;
     font-style: italic;
 }
+
+.user-image-set{
+    display: flex;
+    justify-content: center;
+}
+
+
+.user-image{
+    width: 150px;
+    height: 150px;
+}
+
+.coolis {
+    position: relative;
+  }
+  .coolis:before, .coolis:after {
+    position: absolute;
+    top: 50%;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: #f82d2d;
+    border-radius: 50%;
+  }
+  .coolis:before {
+    left: -20px;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .coolis:after {
+    right: -20px;
+    -webkit-transform: translate(50%, -50%);
+            transform: translate(50%, -50%);
+  }
+  .coolis:hover:before {
+    -webkit-animation: clsois-left 0.8s both;
+            animation: clsois-left 0.8s both;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+  }
+  .coolis:hover:after {
+    -webkit-animation: clsois-right 0.8s both;
+            animation: clsois-right 0.8s both;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+  }
+  @keyframes clsois-left {
+      0% {
+        left: -20px;
+      }
+      50% {
+        left: 50%;
+        width: 20px;
+        height: 20px;
+      }
+      100% {
+        left: 50%;
+        width: 375px;
+        height: 375px;
+      }
+    }
+    @keyframes clsois-right {
+      0% {
+        right: -20px;
+      }
+      50% {
+        right: 50%;
+        width: 20px;
+        height: 20px;
+      }
+      100% {
+        right: 50%;
+        width: 375px;
+        height: 375px;
+      }
+    }
+
+    .contain button {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        text-transform: uppercase;
+      }
