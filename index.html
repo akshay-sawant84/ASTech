@@ -15,13 +15,15 @@
     <title>Akshay's Site!</title>
 </head>
 
-<body>
+<body onload="myFunction()">
+    <div id="loading"></div>
     <header>
         <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-            <a class="navbar-brand" href="#"><img src="img/buddy.svg" alt="navbar-svg" class="navbar-svg"> Hello Buddy..</a>
+            <a class="navbar-brand" href="#"><img src="img/buddy.svg" alt="navbar-svg" class="navbar-svg"> Hello Buddy..
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
@@ -91,58 +93,69 @@
             </div>
         </div>
     </header>
-    <main class="mt-4">
-        <div class="container" id="info">
-            <div class="containerr">
-                <div class="post">
-                    <h2 class="nav-heading mb-3">Info</h2>
-                </div>
-                <div class="box">
-                    <div class="box-sm red"></div>
-                    <div class="box-sm orange"></div>
-                    <div class="box-sm yellow "></div>
-                    <div class="box-sm green "></div>
-                    <div class="box-sm blue "></div>
-                    <div class="box-sm purple"></div>
+    <main class="">
+        <div class="wp-block-cover-image has-background-dim bg-image">
+            <div class="container pt-4" id="info">
+                <div class="containerr">
+                    <div class="post">
+                        <h2 class="nav-heading mb-3 text-primary bg-dark px-3 py-2">Info</h2>
+                    </div>
+                    <div class="box">
+                        <div class="box-sm red"></div>
+                        <div class="box-sm orange"></div>
+                        <div class="box-sm yellow "></div>
+                        <div class="box-sm green "></div>
+                        <div class="box-sm blue "></div>
+                        <div class="box-sm purple"></div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="cards">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="user-image-set">
-                            <img src="img/user1.jpg" alt="user1" class="user-image rounded-circle">
-                        </div>
-                        <h2 class="card-headerr">Heading</h2>
-                        <p class="card-subheader">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent comm</p>
-                        <div class="contain">
-                            <div class="wrap">
-                                <button type="button" class="btn coolis ">More Info<span class="arrow">&#8594;</span></button>
+            <div class="cards pb-4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 ">
+                            <div class="bg-white pt-4 pb-4">
+                                <div class="user-image-set">
+                                    <img src="img/user1.jpg" alt="user1" class="user-image rounded-circle">
+                                </div>
+                                <h2 class="card-headerr">Heading</h2>
+                                <p class="card-subheader">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent comm</p>
+                                <div class="contain">
+                                    <div class="wrap">
+                                        <button type="button" class="btn coolis ">More Info<span
+                                                class="arrow">&#8594;</span></button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="user-image-set">
-                            <img src="img/user1.jpg" alt="user2" class="user-image rounded-circle">
-                        </div>
-                        <h2 class="card-headerr">Heading</h2>
-                        <p class="card-subheader">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent comm</p>
-                        <div class="contain">
-                            <div class="wrap">
-                                <button type="button" class="btn coolis ">More Info <span class="arrow">&#8594;</span></button>
+                        <div class="col-md-4">
+                            <div class="bg-white pt-4 pb-4">
+                                <div class="user-image-set">
+                                    <img src="img/user1.jpg" alt="user2" class="user-image rounded-circle">
+                                </div>
+                                <h2 class="card-headerr">Heading</h2>
+                                <p class="card-subheader">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent comm</p>
+                                <div class="contain">
+                                    <div class="wrap">
+                                        <button type="button" class="btn coolis ">More Info <span
+                                                class="arrow">&#8594;</span></button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="user-image-set">
-                            <img src="img/user3.jpg" alt="user3" class="user-image rounded-circle">
-                        </div>
-                        <h2 class="card-headerr">Heading</h2>
-                        <p class="card-subheader">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent comm</p>
-                        <div class="contain">
-                            <div class="wrap">
-                                <button type="button" class="btn coolis ">More Info <span class="arrow">&#8594;</span></button>
+                        <div class="col-md-4">
+                            <div class="bg-white pb-4 pt-4">
+                                <div class="user-image-set">
+                                    <img src="img/user3.jpg" alt="user3" class="user-image rounded-circle">
+                                </div>
+                                <h2 class="card-headerr">Heading</h2>
+                                <p class="card-subheader">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent comm</p>
+                                <div class="contain">
+                                    <div class="wrap">
+                                        <button type="button" class="btn coolis ">More Info <span
+                                                class="arrow">&#8594;</span></button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -168,10 +181,10 @@
                 <div class="col-md-6">
                     <img src="img/blogging.svg" alt="svg-icon" class="idea-img">
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 bg1">
                     <div class="idea-quote">
                         <blockquote class="blockquote text-center">
-                            <p class="mb-0 fs">“There Is One Thing Stronger Than All The Armies In The World, And That Is An Idea Whose Time Has Come.”</p>
+                            <p class="mb-0 fs"><img src="img/quote.svg" alt="quote-icon" class="quote-icon" width="40" height="40"> “There Is One Thing Stronger Than All The Armies In The World, And That Is An Idea Whose Time Has Come.”</p>
                             <footer class="blockquote-footer"><cite title="Source Title"> Victor Hugo</cite></footer>
                         </blockquote>
                     </div>
@@ -182,7 +195,8 @@
                 <div class="col-md-6">
                     <div class="idea-quote">
                         <blockquote class="blockquote text-center">
-                            <p class="mb-0 fs">“Productivity is being able to do things that you were never able to do before.”</p>
+                            <p class="mb-0 fs"><img src="img/quote.svg" alt="quote-icon" class="quote-icon" width="40" height="40">“Productivity is being able to do things that you were never able to do before.”
+                            </p>
                             <footer class="blockquote-footer"><cite title="Source Title">Franz Kafka</cite></footer>
                         </blockquote>
                     </div>
@@ -198,7 +212,8 @@
                 <div class="col-md-6">
                     <div class="idea-quote">
                         <blockquote class="blockquote text-center">
-                            <p class="mb-0 fs">“Efficiency is doing things right; effectiveness is doing the right things.”</p>
+                            <p class="mb-0 fs"><img src="img/quote.svg" alt="quote-icon" class="quote-icon" width="40" height="40">“Efficiency is doing things right; effectiveness is doing the right things.”
+                            </p>
                             <footer class="blockquote-footer"><cite title="Source Title">Peter Drucker</cite></footer>
                         </blockquote>
                     </div>
@@ -208,7 +223,7 @@
                 <div class="col-md-6">
                     <div class="idea-quote">
                         <blockquote class="blockquote text-center">
-                            <p class="mb-0 fs">“Live with no excuses and travel with no regrets”</p>
+                            <p class="mb-0 fs"><img src="img/quote.svg" alt="quote-icon" class="quote-icon" width="40" height="40">“Live with no excuses and travel with no regrets”</p>
                             <footer class="blockquote-footer"><cite title="Source Title">Oscar Wilde</cite></footer>
                         </blockquote>
                     </div>
@@ -221,16 +236,76 @@
             </div>
         </div>
     </main>
-    <div class="mb-4 mt-4">
+    <div class="mt-4">
         <div class="container">
             <hr class="style-two">
         </div>
     </div>
-    <div class="google-location">
+    <div class="get-in-touch animation pb-4 pt-5">
+        <img src="img/paper.png" alt="paper=plane" class="paper-plane">
+        <div class="containerr">
+            <div class="post">
+                <h2 class="nav-heading mb-3">Get In Touch</h2>
+            </div>
+            <div class="box">
+                <div class="box-sm red"></div>
+                <div class="box-sm orange"></div>
+                <div class="box-sm yellow "></div>
+                <div class="box-sm green "></div>
+                <div class="box-sm blue "></div>
+                <div class="box-sm purple"></div>
+            </div>
+        </div>
+        <div class="container mt-4 ">
+            <div class="row">
+                <div class="col-md-6 page-index">
+
+                    <h1 class="title text-center">Contact first ☝️</h1>
+
+                    <div class="form form__1">
+                        <label for="name" class="form__label">Full name</label>
+                        <input type="text" class="form__input" placeholder="" id="name" required>
+                    </div>
+
+                    <div class="form form__2">
+                        <label for="email" class="form__label">Email address</label>
+                        <input type="email" class="form__input" placeholder="" id="email" required>
+                    </div>
+
+                    <div class="form form__3">
+                        <label for="message" class="form__label">Your message</label>
+                        <input type="text" class="form__input" placeholder="" id="message" required>
+                    </div>
+                    <div class="d-flex justify-content-center mt-4">
+                        <label for="send" class="button send">Send Mail<i class="fas fa-angle-double-right arrow"></i></label>
+                        <!-- <label for="send" class="button reset">Reset</label> -->
+                    </div>
+                </div>
+
+                <div class="col-md-6 d-flex justify-content-center align-items-center page-index">
+
+                    <div class="frame">
+                        <input type="checkbox" id="send">
+
+                        <div class="circle"></div>
+                        <div class="ring"></div>
+                        <svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox="0 0 400 400">
+                        <path d="M 140, 170 L 140,240 L 260,240 L 260,170 L 140,170 L 200,205 L 260,170" />
+                        </svg>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="google-location pt-5 pb-5">
         <div class="row">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15259.010695602978!2d73.97712706757711!3d17.03579747891429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc197cd81dabd79%3A0xb575ea8fc41c8b69!2sKhujgaon%2C%20Maharashtra%20415405!5e0!3m2!1sen!2sin!4v1590144330222!5m2!1sen!2sin"
                 width="800" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
+    </div>
     </div>
     <div class="mb-5 mt-4">
         <div class="container">
@@ -281,14 +356,14 @@
             <h6>&copy; Copyright TUX 2020</h6>
         </div>
     </footer>
-    <div class="switch">
+    <!-- <div class="switch">
         <div class="circle"></div>
-    </div>
+    </div> -->
 
     <div class="progress-wrap">
         <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-    </svg>
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
     </div>
 
     <!-- Optional JavaScript -->
@@ -298,6 +373,25 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
     <script src="rocket.js"></script>
+
+    <!-- for ScrollMagic -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js" integrity="sha256-BCkpwV5o3ac9GC/aFo4/lgrzwRHvUNJaacC42YZSkKw=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js" integrity="sha256-BCJAxMBJx9Z4O2l18Bim9FxDIoiKjNq5QkYJ9roEuRQ=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.min.js" integrity="sha256-hzFNvfa40yrwN2f2YvKFEMOM7ooIaoX9fJwVomCFcBk=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenLite.min.js" integrity="sha256-VfpswwlYKouVmlpnJW0MszMzLm9lH2yfB6ty3d1WsB4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js" integrity="sha256-qGOnfp7iY6DsnB55K7M+0PZjWCtzafRyJh33tgQJkMQ=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TimelineLite.min.js" integrity="sha256-5HW1hilN77unDg9wwY2mmXL1G8/hBMrYOgiB+BqsxNg=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/CSSPlugin.min.js" integrity="sha256-UJt5JHwfrhok9SvTqbi6rRw2ajY0ugeYsIT2pioVDJY=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/BezierPlugin.min.js" integrity="sha256-dER4oK6DpzhXzvohNcU0SRXMVUde/UEg1+mj5EIVkIg=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <script>
+        var preloader = document.getElementById('loading');
+
+        function myFunction() {
+            preloader.style.display = 'none';
+        }
+    </script>
 </body>
 
 </html>
